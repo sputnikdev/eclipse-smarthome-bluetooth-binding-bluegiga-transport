@@ -58,6 +58,24 @@
         </repository>
     </distributionManagement>
 
+    <repositories>
+        <repository>
+            <id>sonatype-snapshots</id>
+            <name>Sonatype Snapshots Maven Repository</name>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+        </repository>
+        <repository>
+            <id>sonatype</id>
+            <name>Sonatype Maven Repository</name>
+            <url>https://oss.sonatype.org/content/repositories/releases</url>
+        </repository>
+        <repository>
+            <id>repo.eclipse.org</id>
+            <name>Eclipse SmartHome Repository - Releases</name>
+            <url>https://repo.eclipse.org/content/repositories/smarthome-releases/</url>
+        </repository>
+    </repositories>
+
     <profiles>
         <profile>
             <id>release-no-deploy</id>
