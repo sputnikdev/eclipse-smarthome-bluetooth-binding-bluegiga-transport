@@ -201,16 +201,6 @@
             <artifactId>bluetooth-manager-bluegiga</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
-        <dependency>
-            <groupId>com.zsmartsystems.bluetooth.bluegiga</groupId>
-            <artifactId>com.zsmartsystems.bluetooth.bluegiga</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>com.neuronrobotics</groupId>
-            <artifactId>nrjavaserial</artifactId>
-            <version>3.13.0</version>
-        </dependency>
 
         <dependency>
             <groupId>junit</groupId>
@@ -283,9 +273,12 @@
                     <instructions>
                         <_consumer-policy>${range;[--,++)}</_consumer-policy>
                         <_removeheaders>Built-By,Private-Package,Provide-Capability,Require-Capability,Embedded-Artifacts,Include-Resource,Embed-Dependency,Embed-Directory,Embed-StripGroup</_removeheaders>
-                        <Embed-Dependency>*;scope=compile|runtime;inline=false</Embed-Dependency>
+                        <Embed-Dependency>*;scope=compile|runtime;inline=false;artifactId=!log4j|slf4j-log4j12|commons-net</Embed-Dependency>
                         <Embed-Directory>lib</Embed-Directory>
                         <Embed-StripGroup>true</Embed-StripGroup>
+                        <Embed-Transitive>true</Embed-Transitive>
+                        <Export-Package>!com.ibm.uvm.tools,!javax.*,org.osgi.framework,!org.w3c.dom,o
+                            rg.xml.sax,!org.xml.sax.helpers</Export-Package>
                         <_exportcontents>org.sputnikdev.bluetooth.manager.transport.bluegiga,
                             org.sputnikdev.bluetooth.manager.transport.bluegiga.activator
                         </_exportcontents>
