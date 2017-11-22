@@ -1,4 +1,4 @@
-package org.sputnikdev.bluetooth.manager.transport.bluegiga.activator;
+package org.sputnikdev.esh.binding.bluetooth.transport.bluegiga.activator;
 
 import gnu.io.NativeResourceException;
 import gnu.io.SerialManager;

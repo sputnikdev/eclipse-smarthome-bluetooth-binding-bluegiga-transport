@@ -279,8 +279,7 @@
                         <Embed-Transitive>true</Embed-Transitive>
                         <Export-Package>!com.ibm.uvm.tools,!javax.*,org.osgi.framework,!org.w3c.dom,o
                             rg.xml.sax,!org.xml.sax.helpers</Export-Package>
-                        <_exportcontents>org.sputnikdev.bluetooth.manager.transport.bluegiga,
-                            org.sputnikdev.bluetooth.manager.transport.bluegiga.activator
+                        <_exportcontents>org.sputnikdev.esh.binding.bluetooth.transport.bluegiga.activator
                         </_exportcontents>
                     </instructions>
                     <niceManifest>true</niceManifest>
