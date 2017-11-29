@@ -273,12 +273,11 @@
                     <instructions>
                         <_consumer-policy>${range;[--,++)}</_consumer-policy>
                         <_removeheaders>Built-By,Private-Package,Provide-Capability,Require-Capability,Embedded-Artifacts,Include-Resource,Embed-Dependency,Embed-Directory,Embed-StripGroup</_removeheaders>
-                        <Embed-Dependency>*;scope=compile|runtime;inline=false;artifactId=!log4j|slf4j-log4j12|commons-net</Embed-Dependency>
+                        <Embed-Dependency>*;scope=compile|runtime;inline=false;artifactId=!log4j|slf4j-log4j12|commons-net|jna|jna-platform|nrjavaserial|org.osgi.core|org.osgi.framework</Embed-Dependency>
                         <Embed-Directory>lib</Embed-Directory>
                         <Embed-StripGroup>true</Embed-StripGroup>
                         <Embed-Transitive>true</Embed-Transitive>
-                        <Export-Package>!com.ibm.uvm.tools,!javax.*,org.osgi.framework,!org.w3c.dom,o
-                            rg.xml.sax,!org.xml.sax.helpers</Export-Package>
+                        <Export-Package>!com.ibm.uvm.tools,!javax.*,!org.osgi.framework,!org.w3c.dom,!org.xml.sax,!org.xml.sax.helpers,!gnu.io,!com.sun.jna</Export-Package>
                         <_exportcontents>org.sputnikdev.esh.binding.bluetooth.transport.bluegiga.activator
                         </_exportcontents>
                     </instructions>

@@ -31,6 +31,7 @@ public class BlueGigaActivator {
     public void deactivate(BundleContext bundleContext) {
         if (bluegigaFactory != null) {
             bluegigaFactory.dispose();
+            bluegigaFactory = null;
         }
     }
 
