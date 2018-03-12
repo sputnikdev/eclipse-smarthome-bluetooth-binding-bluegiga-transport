@@ -5,7 +5,7 @@
 
     <groupId>org.sputnikdev</groupId>
     <artifactId>org.eclipse.smarthome.binding.bluetooth.transport.bluegiga</artifactId>
-    <version>1.2.1</version>
+    <version>1.2.2-SNAPSHOT</version>
 
     <name>${project.groupId}:${project.artifactId}</name>
     <description>Eclipse SmartHome Bluetooth Binding BlueGiga Transport</description>
@@ -45,7 +45,7 @@
         <url>https://github.com/sputnikdev/eclipse-smarthome-bluetooth-binding-bluegiga-transport/tree/master</url>
         <connection>scm:git:git@github.com:sputnikdev/eclipse-smarthome-bluetooth-binding-bluegiga-transport.git</connection>
         <developerConnection>scm:git:git@github.com:sputnikdev/eclipse-smarthome-bluetooth-binding-bluegiga-transport.git</developerConnection>
-        <tag>org.eclipse.smarthome.binding.bluetooth.transport.bluegiga-1.2.1</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <distributionManagement>
