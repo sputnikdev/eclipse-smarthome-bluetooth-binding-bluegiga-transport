@@ -194,13 +194,13 @@
         <dependency>
             <groupId>org.sputnikdev</groupId>
             <artifactId>bluetooth-manager</artifactId>
-            <version>1.5.2</version>
+            <version>1.5.3-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.sputnikdev</groupId>
             <artifactId>bluetooth-manager-bluegiga</artifactId>
-            <version>1.2.2</version>
+            <version>1.2.3-SNAPSHOT</version>
         </dependency>
 
         <dependency>
